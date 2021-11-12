@@ -1,7 +1,36 @@
+# En esta seccion se estudiara el uso de **Dash, Dash HTML Components y Dash Boostrap**
+
 ## Topic covered
 
 - Exploring Dash and other supporting packages
 - Creating and running the simplest app
 - Adding HTML and other components to the app
 - Learning how to structure the layout and managing themes.
+
+Una de las constantes en al rededor del mundo de los datos son: los crecientes cambios de donde obtenemos los datos, y los tipos de datos que se tratan. 
+
+El poder unir estos datos y explorarlos es crucial. Dash no solo se puede ocupar en la exploracion de los datos, si no que tambien puede ser usado en la mayoria de las faces del proceso de analis de datos, desde la exploracion hasta la produccion de anvientes operacionales.
+
+## Dash y otros paquetes de soporte 
+
+Una de las principales ventajas de usar Dash es que podemos crear completamente nuestras propias aplicaciones de datos iteractivos de analitica y visualizacion de datos sin tener conocimiento de html, css, javascript.
+
+![BackgroundDash](./images/backDash.png)
+
+Como se puede ver en la figura Dash utiliza como backend Flask, para producir graficos usa Plotly, y para el renderizado de los graficos usa react.
+
+## Los diferentes paquetes que tiene Dash
+
+Dash no es una gran libreria donde contenga todas las funcionalidades, en su lugar tiene una gran cantidad de paquetes, cada uno para un cierto tipo de funcionalidad.
+
+Los siguientes son los paquetes mas utilizados en este proyecto de introduccion a Dash:
+
+- Dash: El paquete principal y su objeto es dash.Dash y nos proporciona algunas herramientas para manejar la interactividad y las esepciones 
+- Dash Core Components: Contine los componentes basicos para el desarrollo de Dash, como los botones, filtros, sliders, etc.
+- Dash HTML Components: Es basicamente un traductor de codigo Python a HTML.
+- Dash Bootstrap Components: Contiene las funcionalidades para cuidar los aspectos visuales de los componentes.
+
+## Entendiendo la estructura general de Dash Apps
+
+![DashAppParts](./images/tabla.png)
 
