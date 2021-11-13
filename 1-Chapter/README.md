@@ -34,3 +34,8 @@ Los siguientes son los paquetes mas utilizados en este proyecto de introduccion 
 
 ![DashAppParts](./images/tabla.png)
 
+La estructura general de una aplicacion de Dash es: 
+
+- Imports: como cualquier otra libreria en python debemos declararla al principio de nuestro codigo usando los alias de las librerias.
+- App Instantiation: creamos la instancia de la app, y de uana forma sencilla se le pasa como parametro '___name___'
+- App Layout: 
