@@ -37,5 +37,20 @@ Los siguientes son los paquetes mas utilizados en este proyecto de introduccion 
 La estructura general de una aplicacion de Dash es: 
 
 - Imports: como cualquier otra libreria en python debemos declararla al principio de nuestro codigo usando los alias de las librerias.
-- App Instantiation: creamos la instancia de la app, y de uana forma sencilla se le pasa como parametro '___name___'
-- App Layout: 
+- App Instantiation: creamos la instancia de la app, y de uana forma sencilla se le pasa como parametro ___ name ___
+- App Layout: El tema de este capitulo es este y se centra en la configuracion de los elementos hacia el ususario que usualmente se define con html.Div
+- Callback Functions: Las funciones que se ejecutan cuando se produce un evento, como el click en un boton, o el cambio de un slider, etc. Esto se ve en la proxima seccion.
+- Running the App: Finalmente se ejecuta la aplicacion.
+
+## [Creando una aplicacion de Dash](./app.py)
+
+![DashApp](./images/dashApp.png)
+
+Como podemos ver el primer hello world de Dash es una aplicacion sencilla, que solo muestra un mensaje en la ventana del navegador, pero esta misma sencilles hace que dash sea una herramienta muy poderosa para el desarrollo de aplicaciones de datos.
+
+Ahora que tenemos un entendimiento basico de la estructura de una app de dash podemos continuar con la siguiente seccion.
+
+## Adding HTML and other components to the App
+
+Ahora nos enfocaremos en ***app.layout***  que es el atributo que define la estructura de la aplicacion.
+
