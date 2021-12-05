@@ -2,7 +2,7 @@
 
 Interactive Dashboards and Data Apps with Plotly and Dash.
 
-Dash es un marco de trabajo para la creacion de aplicaciones de datos con Python esta escrito en  Plotly.js y React.js, Dash es ideal para construir y desplegar aplicaciones de datos con interfaces de usuario personalizadas. Es especialmente adecuado para cualquier persona que trabaje con datos.
+Dash es un marco de trabajo para la creacion de aplicaciones de datos con Python esta escrito en  Plotly.js y React.js, Dash es ideal para const p'ruir y desplegar aplicaciones de datos con interfaces de usuario personalizadas. Es especialmente adecuado para cualquier persona que trabaje con datos.
 
 A través de un par de patrones simples, Dash abstrae todas las tecnologías y protocolos necesarios para crear una aplicación web de pila completa con visualización de datos interactiva.
 
