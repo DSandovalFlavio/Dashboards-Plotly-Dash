@@ -54,3 +54,30 @@ Ahora que tenemos un entendimiento basico de la estructura de una app de dash po
 
 Ahora nos enfocaremos en ***app.layout***  que es el atributo que define la estructura de la aplicacion.
 
+Para añadir componentes a la aplicacion, simplemente debemos añadir *html.Div* en una lista de elementos (con el parametro children) que se encuentra en el atributo layout de la app.
+
+~~~python
+html.Div(children = [component_1, component_2, ...])
+~~~
+
+### HTML components
+
+Dado que los componentes disponibles en el paquete corresponden a HTML tags, este es el paquete mas estable dentro de Dash.
+
+Los componentes mas importantes y que mas usaremos son:
+
+- **children**: es una lista de elementos que se encuentran dentro de un componente, y es el primer contenedor de contenido de componentes.
+- **className**: este es el mismo atributo que class en html, pero es un atributo de Dash.
+- **style**: es un atributo de Dash que permite definir estilos de los componentes.
+- **id**: es un atributo de Dash que permite definir un identificador para los componentes, y es el encargado de que hacer que la interactividad de los componentes funcione(de momento no se revisara a fondo), de momento solo sabremos que es capas de asignar arbitrariamente ID's en los componentes para poder identificarlos y manejar posteriormente la interactividad.
+
+## [Probando HTML components](./htmlcomponents.py)
+![htmlcomponents](./images/htmlcomponents.png)
+
+podemos notar que podemos usar los componentes basicos de HTML, como "p" para crear un parrafo, "ul" para crear una lista, "li" para crear un elemento de la lista, "a" para crear un enlace, etc.
+
+Notemos que estos componentes simplemente estan implementados como classes en python:
+
+~~~python
+html.P , html.Ul , html.Li , html.A
+~~~
