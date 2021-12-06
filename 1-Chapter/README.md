@@ -74,7 +74,7 @@ Los componentes mas importantes y que mas usaremos son:
 ## [Probando HTML components](./htmlcomponents.py)
 ![htmlcomponents](./images/htmlcomponents.png)
 
-podemos notar que podemos usar los componentes basicos de HTML, como "p" para crear un parrafo, "ul" para crear una lista, "li" para crear un elemento de la lista, "a" para crear un enlace, etc.
+Podemos notar que usamos los componentes basicos de HTML, como "p" para crear un parrafo, "ul" para crear una lista, "li" para crear un elemento de la lista, "a" para crear un enlace, etc.
 
 Notemos que estos componentes simplemente estan implementados como classes en python:
 
